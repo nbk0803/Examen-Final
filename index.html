@@ -23,7 +23,7 @@
     <section class="hero">
         <div class="hero-content">
             <h1>Carnes Asadas Premium Directo a tu Mesa</h1>
-            <p>Disfruta de las mejores carnes, hamburguesas y deliciosas preparaciones recién hechas. Entrega rápida y fresca.</p>
+            <p>Disfruta de las mejores carnes, hamburguesas y deliciosas preparaciones recién hechas. Entrega rápida y fresca garantizada.</p>
             <div class="hero-buttons">
                 <button class="cta-button cta-primary" id="pedir-ahora">Pedir Ahora</button>
                 <button class="cta-button cta-secondary" id="ver-menu">Ver Menú</button>
@@ -37,33 +37,45 @@
         <div class="menu-grid">
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Carne Asada Premium</h3>
-                <p>Carne de res seleccionada, asada a la parrilla con nuestro secreto especial.</p>
+                <div class="item-content">
+                    <h3>Carne Asada Premium</h3>
+                    <p>Carne de res seleccionada, asada a la parrilla con nuestro secreto especial.</p>
+                </div>
             </div>
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Hamburguesa Clásica</h3>
-                <p>Carne molida 100% pura con pan tostado, lechuga, tomate y salsa especial.</p>
+                <div class="item-content">
+                    <h3>Hamburguesa Clásica</h3>
+                    <p>Carne molida 100% pura con pan tostado, lechuga, tomate y salsa especial.</p>
+                </div>
             </div>
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Costillas BBQ</h3>
-                <p>Costillas tiernas en salsa BBQ casera, acompañadas de papas.</p>
+                <div class="item-content">
+                    <h3>Costillas BBQ</h3>
+                    <p>Costillas tiernas en salsa BBQ casera, acompañadas de papas.</p>
+                </div>
             </div>
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Cerdo Adobado</h3>
-                <p>Cerdo marinado en adobo rojo, asado lentamente hasta la perfección.</p>
+                <div class="item-content">
+                    <h3>Cerdo Adobado</h3>
+                    <p>Cerdo marinado en adobo rojo, asado lentamente hasta la perfección.</p>
+                </div>
             </div>
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Hamburguesa Doble</h3>
-                <p>Dos carnes, doble queso, bacon y nuestras salsas especiales.</p>
+                <div class="item-content">
+                    <h3>Hamburguesa Doble</h3>
+                    <p>Dos carnes, doble queso, bacon y nuestras salsas especiales.</p>
+                </div>
             </div>
             <div class="menu-item">
                 <div class="item-image"></div>
-                <h3>Pinchos Mixtos</h3>
-                <p>Combinación de res, cerdo y pollo asados con verduras frescas.</p>
+                <div class="item-content">
+                    <h3>Pinchos Mixtos</h3>
+                    <p>Combinación de res, cerdo y pollo asados con verduras frescas.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -95,15 +107,21 @@
         <h2 class="section-title">Lo Que Dicen Nuestros Clientes</h2>
         <div class="testimonials-grid">
             <div class="testimonial">
-                <p>"La mejor carne asada que he probado en delivery. ¡Vuelvo a pedir!"</p>
+                <div class="testimonial-text">
+                    <p>"La mejor carne asada que he probado en delivery. ¡Vuelvo a pedir!"</p>
+                </div>
                 <div class="testimonial-author">- Juan Pérez</div>
             </div>
             <div class="testimonial">
-                <p>"Las hamburguesas son increíbles. Fresco y delicioso cada vez."</p>
+                <div class="testimonial-text">
+                    <p>"Las hamburguesas son increíbles. Fresco y delicioso cada vez."</p>
+                </div>
                 <div class="testimonial-author">- Laura Gómez</div>
             </div>
             <div class="testimonial">
-                <p>"Entregas rápidas y la comida siempre llega caliente. Excelente servicio."</p>
+                <div class="testimonial-text">
+                    <p>"Entregas rápidas y la comida siempre llega caliente. Excelente servicio."</p>
+                </div>
                 <div class="testimonial-author">- Roberto Silva</div>
             </div>
         </div>
@@ -128,7 +146,7 @@
                 </div>
                 <div class="form-group">
                     <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos tus sugerencias o preguntas" required></textarea>
                 </div>
                 <button type="submit" class="cta-button cta-primary">Enviar Mensaje</button>
             </form>
